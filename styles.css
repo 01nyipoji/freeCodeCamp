@@ -1,0 +1,26 @@
+body{
+  background-image: url(https://images.pexels.com/photos/863006/pexels-photo-863006.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+#title{
+  text-align: center;
+}
+
+#survey-form{
+  display: block;
+}
+
+#description{
+  text-align: center;
+}
+
+div{
+  background-color: burlywood;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label{
+  display: block
+}

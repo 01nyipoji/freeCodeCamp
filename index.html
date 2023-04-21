@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Survey Form for Posco's Delish</title>
+    <link rel="stlyesheet" href="styles.css" />
+  </head>
+  <body>
+    
+    <h1 id="title">PoscoDelish Survey Form</h1>
+    <p id="description">Thank you for taking the time to improve our services to you</p>
+    <div>
+      <form id="survey-form" action="submit" method="POST">
+
+        <fieldset>
+          <label id="name-label">Name<br><input type="text" id="name" placeholder="Enter your name" required/></label><br>
+          <label id="email-label">Email<br><input type="email" id="email" placeholder="Enter your email" required /></label><br>
+          <label id="number-label">Phone Number(optional)<br><input id="number" type="number" min="10" max="12" placeholder="Number" /></label><br>
+          <select id="dropdown">
+            <option>Select state of residence</option>
+            <option>Abia</option>
+            <option>Plateau</option>
+            <option>Lagos</option>
+            <option>Taraba</option>
+            <option>Borno</option>
+            <option>Sokoto</option>
+            <option>Lagos</option>
+            <option>Katsina</option>
+            <option>Kano</option>
+            <option>Benin</option>
+          </select>
+        </fieldset>
+            
+        <fieldset>
+          <label>Would you refer us to a friend?</label><br>
+          <input type="radio" name="refer" value="refer"/>Yes<br>
+          <input type="radio" name="refer" value="refer"/>No<br>
+          <input type="radio" name="refer" value="refer" />Maybe<br>
+        </fieldset>
+
+        <fieldset>
+          <label>What's your favourite cake flavour?<br>(Check all that apply)</label><br>
+          <input type="checkbox" value="vanilla"> Vanilla Cake<br>
+          <input type="checkbox" value="vanilla"> Chocolate Cake<br>
+          <input type="checkbox" value="vanilla"> Strawberry Cake<br>
+          <input type="checkbox" value="vanilla"> Redvelvet Cake
+        </fieldset>
+
+        <fieldset>
+          <textarea max="200" placeholder="Additional Comment"></textarea>
+        </fieldset>
+
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+    
+  </body>
+</html>
